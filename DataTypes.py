@@ -30,3 +30,5 @@ print(my_third_list[::-1])
 my_first_list=my_third_list.copy();
 my_first_list.append("Crazy");
 print(my_first_list)
+sequare_list=[i*2 for i in my_second_list]
+print(sequare_list)
